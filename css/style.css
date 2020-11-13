@@ -1,0 +1,45 @@
+.titre {
+	text-align: center;
+	background-color: grey;
+}
+
+
+
+/*pagination*/
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+/*pagination*/
+
+
+
+
+
+button{
+	width: 100%
+}
+
+footer{
+	text-align: center;
+	color: red;
+	font-family: old english text MT;
+	font-size: 25px;
+	background-color: grey;
